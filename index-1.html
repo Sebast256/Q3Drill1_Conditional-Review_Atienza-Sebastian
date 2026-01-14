@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Grades</title>
+    <style>
+        body{
+            background-color: aqua;
+            color: #4287f5;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            border: #12316b;
+            border-style: groove;
+            border-width: thick;
+        }
+    </style>
+</head>
+<body>
+    <h1>Number Comparison</h1>
+    
+    <p>Score 1:</p>
+    <input id="score1" type="text">
+    
+    <p>Score 2:</p>
+    <input id="score2" type="text">
+
+    <button py-click="compute_average">COMPUTE</button>
+
+    <p>Average: <span id="average"></span></p>
+    <p>Passed? <span id="result"></span></p>
+
+    <script type="py" src="main.py"></script>
+    
+</body>
+</html>
